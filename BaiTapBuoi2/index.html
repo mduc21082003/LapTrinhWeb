@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" enctype="multipart/form-data" action="process_form.php">
+            <h2 class="name_header">Payment Receipt Upload Form</h2>
+            <div class="container_form">
+                <div class="form_group">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="firstname" required><br>
+                    <label for="name" style="font-size: 10px;">First name</label><br>
+                    <input type="text" id="name" name="lastname" required> <br>
+                    <label for="name" style="font-size: 10px;">Last name</label>
+                </div>
+                <div class="form_group">
+                    <label for="name">Email</label><br>
+                    <input type="email" id="email" name="email" required> <br>
+                    <label for="name" style="font-size: 10px;">example@example.com</label> <br> <br>
+                    <label for="invoice">Invoice ID</label><br>
+                    <input type="text" id="invoice" name="invoice" required>
+                </div>
+                <div class="form_group">
+                    <label for="name">Pay for</label><br><br>
+                    <input type="checkbox" name="categories[]" value="15K Category">15K Category
+                    <input type="checkbox" name="categories[]" value="35K Category">35K Category <br><br>
+                    <input type="checkbox" name="categories[]" value="55K Category">55K Category
+                    <input type="checkbox" name="categories[]" value="75K Category">75K Category <br><br>
+                    <input type="checkbox" name="categories[]" value="116K Category">116K Category
+                    <input type="checkbox" name="categories[]" value="Shuttle one way">Shuttle one way <br><br>
+                    <input type="checkbox" name="categories[]" value="Shuttle two ways">Shuttle two ways
+                    <input type="checkbox" name="categories[]" value="Training Cap Merchandise">Training Cap Merchandise
+                    <br><br>
+                    <input type="checkbox" name="categories[]" value="Compressport T-Shirt Merchandise">Compressport
+                    T-Shirt Merchandise
+                    <input type="checkbox" name="categories[]" value="Buf Merchandise">Buf Merchandise <br><br>
+                    <input type="checkbox" name="categories[]" value="Other">Other
+                </div>
+
+                <div class="form_group">
+                    <label for="name">Please upload your payment receipt</label><br>
+                    <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf" required> <br>
+                    <label for="name" style="font-size: 10px;">jpg, jpeg, png, gif (1mb max..)</label>
+                </div>
+                <div class="form_group information">
+                    <label for="information">Additional information</label><br>
+                    <textarea id="information" name="information" required value="Type here" rows="6" cols="75K"
+                        placeholder="Type here..."></textarea>
+                </div>
+            </div>
+            <div style="text-align: center; margin: 20px;">
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.name_header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.form_group {
+    margin: 20px;
+}
+
+.nm{
+    font-size: 10px;
+}
+
+.form_group-sm{
+    text-align: center;
+    margin: 20px;
+}
+
+.container_form {
+    border: 1px solid #ccc;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
