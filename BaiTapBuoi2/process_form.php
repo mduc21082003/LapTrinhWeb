@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
     $email = $_POST["email"];
-    $invoice = $_POST["Invoice"];
+    $invoice = $_POST["invoice"];
     $categories = isset($_POST["categories"]) ? implode(", ", $_POST["categories"]) : "";
     $information = $_POST["information"];
 
